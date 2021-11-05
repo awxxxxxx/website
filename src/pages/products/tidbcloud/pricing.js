@@ -8,6 +8,7 @@ import { Button } from '@seagreenio/react-bulma'
 import Layout from '../../../components/layout'
 import SEO from '../../../components/seo'
 import IntlLink from '../../../components/IntlLink'
+import Tier from '../../../components/tier'
 import axios from 'axios'
 import StartYourFreeTrialNowButton from '../../../components/startYourFreeTrialNowButton'
 
@@ -214,7 +215,8 @@ const Pricing = () => {
               <p className="paragraph">
                 Choose from the special public preview options
               </p>
-              <HourlyNodeUsageInfo />
+              {/* <HourlyNodeUsageInfo /> */}
+              <Tier />
               <div className="start-trial-button">
                 <StartYourFreeTrialNowButton />
               </div>
